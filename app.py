@@ -1,4 +1,5 @@
-from flask import Flask, request, Markup
+from flask import Flask, request
+from markupsafe import Markup
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
